@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Fullstack - Portfolio Project</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <div class="container">
+      <header class="header row">
+        <div class="col-md-6 logo">
+          <img src="images/udacity-logo.jpg"
+            srcset="images/udacity-logo-small.jpg 300w, images/udacity-logo-medium.jpg 800w,
+              images/udacity-logo-large.jpg 1000w"
+            sizes="(min-width:500px)40vw 100vw" 
+            alt="udacity-logo"
+            class='img-responsive'>
+        </div>
+        <div class="col-md-6 text-right text-uppercase name-card-container">
+          <h1 class="name">Jane Doette</h1>
+          <h2 class="title">Front-end ninja</h2>
+        </div>
+          
+      </header>
+
+      <nav class="row">
+        <div class="col-md-2"><span>Main</span></div>
+        <div class="col-md-2"><span>About</span></div>
+      </nav>
+
+      <aside>
+        <!-- sidebar content goes in here -->
+      </aside>
+
+      <main>
+        <div class="horizontal-line-after-header">
+        </div>
+
+        <div class="row banner-container">
+            <div class="col-md-12">
+             <picture>
+              <source media="(min-width: 1500px)" srcset="images/banner-large.png">
+              <source media="(max-width: 500px)" srcset="images/banner-small.png">
+              <img src="images/banner-medium.png" class='img-responsive'>
+            </picture> 
+              
+          </div>
+        </div>
+
+        <div class="row featured-work-container">
+          <div class="col-md-12 featured-work-title">
+            <p>Featured Work</p>
+          </div>
+          <div class="col-md-4 featured-work-item">
+            <picture>
+              <source media="(min-width: 1500px)" srcset="images/appify-large.jpg">
+              <source media="(max-width: 500px)" srcset="images/appify-small.jpg">
+              <img src="images/appify-medium.jpg" class='img-responsive'>
+            </picture> 
+            
+            <p class="featured-title text-uppercase">Appify</p>
+            <p class="featured-url">https://github.com/udacity/Appify/</p>
+          </div>
+          <div class="col-md-4 featured-work-item">
+            <picture>
+              <source media="(min-width: 1500px)" srcset="images/sunflower-large.jpg">
+              <source media="(max-width: 500px)" srcset="images/sunflower-small.jpg">
+              <img src="images/sunflower-medium.jpg" class='img-responsive'>
+            </picture> 
+      
+            <p class="featured-title text-uppercase">Sunflower</p>
+            <p class="featured-url">https://github.com/udacity/Sunflower/</p>
+          </div>
+          <div class="col-md-4 featured-work-item">
+            <picture>
+              <source media="(min-width: 1500px)" srcset="images/bokeh-large.jpg">
+              <source media="(max-width: 500px)" srcset="images/bokeh-small.jpg">
+              <img src="images/bokeh-medium.jpg" class='img-responsive'>
+            </picture> 
+            <p class="featured-title text-uppercase">Bokeh</p>
+            <p class="featured-url">https://github.com/udacity/Bokeh/</p>
+          </div>
+        </div>
+      </main>
+
+      <section>
+        <!-- Here's some sort of minor section of the page that doesn't belong to the main section -->
+      </section>
+    
+      <footer class="text-center row">
+        <h2>This is the footer. </h2>
+        <h2>Created by Guanghui Zhang </h2>
+      </footer>
+
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mainpage.js"></script>
+
+  </body>
+</html>

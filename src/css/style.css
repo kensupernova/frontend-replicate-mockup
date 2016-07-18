@@ -1,0 +1,84 @@
+* {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px; }
+
+body {
+  color: black; }
+
+.row {
+  margin-top: 5px; }
+
+header {
+  min-height: 100px; }
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%; }
+  .logo img {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0px; }
+
+.name-card-container {
+  color: black; }
+
+.name {
+  font-size: 50px;
+  margin-bottom: 0px; }
+
+.title {
+  font-size: 20px; }
+
+.horizontal-line-after-header {
+  width: 100%;
+  height: 0px;
+  border: solid #7d97ad 2px;
+  background-color: #7d97ad; }
+
+.banner-container {
+  margin-top: 30px; }
+  .banner-container img {
+    width: 100%; }
+
+.featured-work-title p {
+  font-size: 35px;
+  color: #7d97ad; }
+
+.featured-work-container {
+  margin-top: 20px; }
+  .featured-work-container .featured-work-item {
+    text-align: center; }
+
+.featured-work-item .featured-title {
+  font-size: 30px;
+  margin-bottom: 0px; }
+
+header {
+  text-align: center;
+  font-size: 12px; }
+
+nav div {
+  font-size: 20px; }
+
+footer {
+  font-size: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+  footer h2 {
+    font-size: 15px; }
+
+/*when screen is smaller than 500*/
+@media screen and (max-width: 500px) {
+  .name-card-container {
+    display: block; }
+  .name {
+    text-align: left;
+    font-size: 20px; }
+  .title {
+    text-align: left;
+    font-size: 12px; }
+  .featured-work-title p {
+    font-size: 20px; }
+  .featured-title p, .featured-url p {
+    font-size: 15px; } }
