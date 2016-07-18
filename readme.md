@@ -1,5 +1,4 @@
-Fullstack - Portfolio Project
-
+Frontend Replicate Mockup
 ====
 ###Introduction
 The objective of this project to try to replicate the design in 'design-mockup.pdf' file. The distribution website is in /dist folder.
